@@ -1,2 +1,6 @@
 cleaned_movie_reviews.csv
 rotten_tomatoes_critic_reviews.csv"*.csv" 
+deberta_tokenized_data.pt
+test_data.pt
+train_data.pt
+validation_data.pt
