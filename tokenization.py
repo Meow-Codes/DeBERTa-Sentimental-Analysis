@@ -12,7 +12,7 @@ labels = df['label'].tolist()
 # Initialize DeBERTa Tokenizer
 tokenizer = DebertaTokenizer.from_pretrained('microsoft/deberta-base')
 
-#Batch size to avoid memory issues
+# Batch size to avoid memory issues
 batch_size = 10000
 input_ids, attention_masks, all_labels = [], [], []
 
